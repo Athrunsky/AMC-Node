@@ -11,6 +11,7 @@ const users = require('./routes/users');
 const api = require('./routes/api');
 const router = require('koa-router')();
 const response_formatter = require('./middlewares/response_formatter');
+const ApiError = require('./app/error/ApiError');
 // error handler
 onerror(app);
 
