@@ -654,3 +654,515 @@ err stack: Error: next() called multiple times
     at <anonymous>
 *************** error log end ***************
 
+[2018-01-18T14:09:40.628] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 385
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T14:13:14.564] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 426
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T14:13:16.991] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T14:13:26.871] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"1"}
+response time: 0
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T14:13:58.790] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"1"}
+response time: 7
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T14:14:16.142] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"1"}
+response time: 3
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T14:27:19.565] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 406
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:14:48.206] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2350
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:14:48.225] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 11
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:14:54.474] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:16:23.181] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:19:52.696] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:21:31.273] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:21:50.231] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:43:02.479] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:43:36.250] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:45:13.412] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:46:08.991] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:50:23.611] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:51:13.690] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T16:51:37.400] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:12:15.324] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:12:25.029] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:12:34.226] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":null}
+response time: 2
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:14:17.792] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 68
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:30:46.931] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 59
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:30:48.198] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:30:54.311] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:32:30.681] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:33:15.377] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /i/users/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:40:30.333] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 77
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-01-18T17:51:06.308] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/testUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 82
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+

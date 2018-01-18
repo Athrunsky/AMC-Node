@@ -61,7 +61,7 @@ app.use(users.routes(), users.allowedMethods());
 
 app.use(router.routes(), router.allowedMethods());
 //router.use('/', index.routes(), index.allowedMethods());
-router.use('/users', users.routes(), users.allowedMethods());
+//router.use('/users', users.routes(), users.allowedMethods());
 router.use('/api', api.routes(), api.allowedMethods());
 
 
