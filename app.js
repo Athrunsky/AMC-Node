@@ -21,7 +21,6 @@ app.use(bodyparser({
 app.use(json());
 app.use(logger());
 app.use(require('koa-static')(__dirname + '/public'));
-app.use(response_formatter);
 
 app.use(views(__dirname + '/views', {
   extension: 'pug'
@@ -54,12 +53,13 @@ app.use(async (ctx, next) => {
 });
 
 // routes
+app.use(response_formatter('^/api'));
 app.use(api.routes(),api.allowedMethods());
 app.use(index.routes(), index.allowedMethods());
 app.use(users.routes(), users.allowedMethods());
 
 app.use(router.routes(), router.allowedMethods());
-router.use('/', index.routes(), index.allowedMethods());
+//router.use('/', index.routes(), index.allowedMethods());
 router.use('/users', users.routes(), users.allowedMethods());
 router.use('/api', api.routes(), api.allowedMethods());
 
