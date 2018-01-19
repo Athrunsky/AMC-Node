@@ -1166,3 +1166,19 @@ err stack: Error: next() called multiple times
     at <anonymous>
 *************** error log end ***************
 
+[2018-01-18T17:52:53.569] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/postUser?name=%E5%BC%A0%E4%B8%89
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"张三"}
+response time: 75
+err name: Error
+err message: next() called multiple times
+err stack: Error: next() called multiple times
+    at dispatch (D:\frontendworks\AMC\node_modules\koa-compose\index.js:36:45)
+    at next (D:\frontendworks\AMC\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\frontendworks\AMC\app.js:40:15)
+    at <anonymous>
+*************** error log end ***************
+
