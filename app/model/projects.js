@@ -11,6 +11,7 @@ let sequelize = new Sequelize(config.database, config.username, config.password,
     }
 });
 let Project = sequelize.define('projects', {
+
     id: {
         type: Sequelize.STRING(50),
         primaryKey: true
@@ -19,7 +20,12 @@ let Project = sequelize.define('projects', {
     createPerson: {type:Sequelize.STRING(10)},
     createDate: {type:Sequelize.BIGINT},
 }, {
+    indexes: [
+        // Create a unique index on email
+        {
+            unique: true,
+            fields: ['email']
+        }],
     timestamps: false
 });
-
 module.exports = Project;

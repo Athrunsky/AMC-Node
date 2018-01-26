@@ -9,15 +9,20 @@ exports.serachProject = async (ctx,next) =>{
     }
 };
 exports.postProject = async(ctx,next)=>{
-    let name = ctx.query.name;
-    if(!name){
+    let name = ctx.request.body.name;
+    let createPerson = 'Ren';
+    let now = new Date();
+    let result = await Project.findCreateFind({
+        where:{
+            name:name
+        },
+        defaults:{
+            name:name,
+            createPerson:createPerson,
+            createDate:now
+        }
+    });
+    if(!result[1]){
         throw new ApiError(ApiErrorNames.USER_NOT_EXIST);
     }
-    let createPerson = 'Ren';
-    let now = Date.now();
-    await Project.create({
-        name:name,
-        createPerson:createPerson,
-        createDate:now
-    })
 };
